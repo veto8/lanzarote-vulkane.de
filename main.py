@@ -4,9 +4,9 @@ import asyncio, os, re, urllib.request, urllib.parse
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
-URL = "https://lanzarote-vulkane.de"
-DOMAIN = "lanzarote-vulkane.de"
-DOMAIN_WWW = "www.lanzarote-vulkane.de"
+URL = "http://127.0.0.1"
+DOMAIN = "127.0.0.1"
+DOMAIN_WWW = "127.0.0.1"
 OUT = "pages/wordpress"
 LOCAL_DOMAINS = [DOMAIN, DOMAIN_WWW]
 
