@@ -1,0 +1,322 @@
+# Translation of Plugins - Mail logging &#8211; WP Mail Catcher - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Mail logging &#8211; WP Mail Catcher - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-04 01:07:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Mail logging &#8211; WP Mail Catcher - Stable (latest release)\n"
+
+#: src/Views/Settings.php:169
+msgid "%s. <a href=\""
+msgstr "%s. <a href=\""
+
+#: src/Views/Log.php:49
+msgid ""
+"You have <strong>over %s</strong> messages stored and <a href=\"%s\">auto-delete is\n"
+"                             disabled</a>. As a result your database can become very large, please either allow\n"
+"                             auto-delete or delete some logs."
+msgstr ""
+"Du hast <strong>über %s</strong> Nachrichten gespeichert und die <a href=\"%s\">automatische Löschung\n"
+"                             ist deaktiviert</a>. Daher kann deine Datenbank sehr groß werden, \n"
+"                             bitte aktiviere die automatische Löschung oder lösche einige Protokolle."
+
+#: src/Views/Log.php:29
+msgid ""
+"Your WP Mail Catcher database needs upgrading. <strong>Click <a href=\"%s\">here</a>\n"
+"                             to perform the upgrade.</strong>"
+msgstr ""
+"Deine WP-Mail-Catcher-Datenbank erfordert ein Upgrade. <strong>Klicke <a href=\"%s\">hier</a>,\n"
+"                             um das Upgrade durchzuführen.</strong>"
+
+#: src/Views/ExportWarningDialog.php:23
+msgid ""
+"You are trying to export <strong>%s</strong> messages when the\n"
+"                                         recommended limit is no more than <strong>%s</strong>, this can cause the\n"
+"                                         server to timeout before the export is complete, we recommend reducing the\n"
+"                                         amount of messages exported, or exporting them in batches."
+msgstr ""
+"Du versuchst <strong>%s</strong> Nachrichten zu exportieren, das ist mehr als\n"
+"                                         die empfohlene Obergrenze von <strong>%s</strong>, dies kann zu einer Zeitüberschreitung des\n"
+"                                         Servers führen, bevor der Export abgeschlossen ist. Wir empfehlen, die Anzahl \n"
+"                                         der zu exportieren Nachrichten zu reduzieren, oder sie in mehren Durchläufen zu exportieren."
+
+#: src/MailAdminTable.php:139
+msgid "View"
+msgstr "Anzeigen"
+
+#: src/MailAdminTable.php:92
+msgid "This subject was quoted printable decoded"
+msgstr "Dieser Betreff wurde Quoted-Printable-decodiert"
+
+#: src/MailAdminTable.php:75
+msgid "This subject was base64 decoded"
+msgstr "Dieser Betreff wurde Base64-decodiert"
+
+#: src/Views/Settings.php:158
+msgid "Database version"
+msgstr "Datenbank-Version"
+
+#: src/Views/Settings.php:41
+msgid "Database migrations were successfully rerun"
+msgstr "Datenbankmigrationen wurden erfolgreich erneut durchgeführt"
+
+#: src/Views/Settings.php:143
+msgid "Will next run in: %s. <a href=\""
+msgstr "Nächster Durchlauf in: %s. <a href=\""
+
+#: src/Views/Settings.php:33
+msgid "The auto delete was successfully triggered"
+msgstr "Die automatische Löschung wurde erfolgreich ausgelöst"
+
+#: src/Views/LogModal.php:28
+msgid "No attachments to show"
+msgstr "Keine Anhänge zur Ansicht"
+
+#: src/Views/Settings.php:128
+msgid "Yes - delete messages that are over %s old"
+msgstr "Ja – Nachrichten älter als %s löschen"
+
+#: src/Views/LogModal.php:56
+msgid "No additional headers to show"
+msgstr "Keine weiteren Header zur Ansicht"
+
+#. Plugin Name of the plugin
+#: WpMailCatcher.php
+msgid "Mail logging - WP Mail Catcher"
+msgstr "Mail logging - WP Mail Catcher"
+
+#: src/Bootstrap.php:63 src/Bootstrap.php:112 src/Bootstrap.php:113
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/Views/Footer.php:9
+msgid "If you've found this useful - please rate us!"
+msgstr "Wenn du dieses Plugin nützlich findest, bewerte uns bitte!"
+
+#: src/Views/NewMessageModal.php:83
+msgid "My Message"
+msgstr "Meine Nachricht"
+
+#: src/Views/LogModal.php:22 src/Views/NewMessageModal.php:50
+msgid "Is HTML email?"
+msgstr "Ist es eine HTML-E-Mail?"
+
+#: src/Views/Log.php:99
+msgid "Successful"
+msgstr "Erfolgreich"
+
+#: src/Views/Log.php:91
+msgid "All"
+msgstr "Alle"
+
+#: src/MailAdminTable.php:117
+msgid "More Info"
+msgstr "Mehr Informationen"
+
+#. Description of the plugin
+#: WpMailCatcher.php
+msgid "Logging your mail will stop you from ever losing your emails again! This fast, lightweight plugin (under 140kb in size!) is also useful for debugging or backing up your messages."
+msgstr "Die Protokollierung deiner E-Mails verhindert, dass du deine E-Mails jemals wieder verlierst! Dieses schnelle und kleine Plugin (weniger als 140 KB groß!) ist auch zum Debuggen oder Sichern deiner Nachrichten nützlich."
+
+#: src/Views/Log.php:123
+msgid "Search Logs"
+msgstr "Protokolle durchsuchen"
+
+#: src/MailAdminTable.php:127 src/Views/NewMessageModal.php:33
+msgid "From"
+msgstr "Von"
+
+#: src/Views/LogModal.php:74
+msgid "Sent at:"
+msgstr "Gesendet am:"
+
+#: src/Views/ExportWarningDialog.php:84
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/Views/ExportWarningDialog.php:64
+msgid "This will export messages <strong>%s-%s</strong>"
+msgstr "Hiermit werden die Nachrichten <strong>%s-%s</strong> exportiert"
+
+#: src/Views/ExportWarningDialog.php:55
+msgid "Batch number"
+msgstr "Batch-Nummer"
+
+#: src/Views/ExportWarningDialog.php:41
+msgid "Number of logs to export"
+msgstr "Anzahl der zu exportierenden Nachrichten"
+
+#: src/Views/ExportWarningDialog.php:18
+msgid "Warning"
+msgstr "Warnung"
+
+#: src/GeneralHelper.php:222
+msgctxt "%s = human-readable time difference"
+msgid "%s"
+msgstr "%s"
+
+#: src/Views/Log.php:70 src/Views/Log.php:80
+msgid "Export all messages"
+msgstr "Alle Nachrichten exportieren"
+
+#. Author URI of the plugin
+#: WpMailCatcher.php
+msgid "https://jamesward.io"
+msgstr "https://jamesward.io"
+
+#. Author of the plugin
+#: WpMailCatcher.php
+msgid "James Ward"
+msgstr "James Ward"
+
+#. Plugin URI of the plugin
+#: WpMailCatcher.php
+msgid "https://wordpress.org/plugins/wp-mail-catcher/"
+msgstr "https://de.wordpress.org/plugins/wp-mail-catcher/"
+
+#: src/Views/Settings.php:184
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: src/Views/LogModal.php:24
+msgid "Yes"
+msgstr "﻿Ja"
+
+#: src/Views/LogModal.php:24 src/Views/Settings.php:106
+msgid "No"
+msgstr "Nein"
+
+#: src/Views/Settings.php:96
+msgid "Auto delete logs?"
+msgstr "Protokolle automatisch löschen?"
+
+#: src/Views/Settings.php:76
+msgid "User capability needed to edit settings"
+msgstr "Benutzer-Berechtigung erforderlich, um Einstellungen zu bearbeiten"
+
+#: src/Views/Settings.php:56
+msgid "User capability needed to see logs"
+msgstr "Benutzer-Berechtigung erforderlich, um Protokolle anzusehen"
+
+#: src/Views/Settings.php:46
+msgid "settings"
+msgstr "Einstellungen"
+
+#: src/Views/Settings.php:24
+msgid "You didn't change any settings"
+msgstr "Du hast keine Einstellung geändert"
+
+#: src/Views/Settings.php:18
+msgid "Settings were successfully updated!"
+msgstr "Die Einstellungen wurden erfolgreich aktualisiert!"
+
+#: src/Views/NewMessageModal.php:93
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: src/Views/NewMessageModal.php:74
+msgid "Add Attachments"
+msgstr "Anhänge hinzufügen"
+
+#: src/Views/NewMessageModal.php:34
+msgid "Custom"
+msgstr "Individuell"
+
+#: src/Views/NewMessageModal.php:32
+msgid "Bcc"
+msgstr "BCC"
+
+#: src/Views/NewMessageModal.php:31
+msgid "Cc"
+msgstr "CC"
+
+#: src/Views/NewMessageModal.php:15
+msgid "Headers"
+msgstr "Header"
+
+#: src/Views/LogModal.php:95 src/Views/NewMessageModal.php:96
+msgid "Close"
+msgstr "Schließen"
+
+#: src/Views/LogModal.php:80
+msgid "Errors:"
+msgstr "Fehler:"
+
+#: src/Views/LogModal.php:72
+msgid "On line:"
+msgstr "In Zeile:"
+
+#: src/Views/LogModal.php:70
+msgid "Triggered from:"
+msgstr "Ausgelöst durch:"
+
+#: src/Views/LogModal.php:58
+msgid "Additional Headers"
+msgstr "Zusätzliche Header"
+
+#: src/Views/LogModal.php:30 src/Views/NewMessageModal.php:61
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: src/Views/LogModal.php:14
+msgid "Debug"
+msgstr "Fehlerdiagnose"
+
+#: src/Views/LogModal.php:13
+msgid "Detail"
+msgstr "Detail"
+
+#: src/Views/LogModal.php:12 src/Views/NewMessageModal.php:80
+msgid "Message"
+msgstr "Nachricht"
+
+#: src/Views/Log.php:65
+msgid "New Message"
+msgstr "Neue Nachricht"
+
+#: src/Views/Log.php:22
+msgid "logs"
+msgstr "Protokolle"
+
+#: src/Views/Log.php:107
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#: src/MailAdminTable.php:126 src/Views/NewMessageModal.php:53
+msgid "Subject"
+msgstr "Betreff"
+
+#: src/MailAdminTable.php:125 src/Views/NewMessageModal.php:30
+msgid "To"
+msgstr "An"
+
+#: src/MailAdminTable.php:128
+msgid "Sent"
+msgstr "Gesendet"
+
+#: src/MailAdminTable.php:138 src/MailAdminTable.php:179
+#: src/Views/ExportWarningDialog.php:81
+msgid "Export"
+msgstr "Exportieren"
+
+#: src/MailAdminTable.php:137 src/MailAdminTable.php:178
+#: src/Views/LogModal.php:92
+msgid "Resend"
+msgstr "Erneut senden"
+
+#: src/MailAdminTable.php:136 src/MailAdminTable.php:177
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/CronManager.php:96
+msgid "Once a month"
+msgstr "Einmal monatlich"
+
+#: src/CronManager.php:91
+msgid "Once Weekly"
+msgstr "Einmal wöchentlich"

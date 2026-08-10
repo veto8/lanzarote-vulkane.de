@@ -1,0 +1,799 @@
+@font-face {
+  font-family: 'Socicon';
+  src:  url('../fonts/Socicon.eot?484r1f');
+  src:  url('../fonts/Socicon.eot?484r1f#iefix') format('embedded-opentype'),
+    url('../fonts/Socicon.woff2?484r1f') format('woff2'),
+    url('../fonts/Socicon.ttf?484r1f') format('truetype'),
+    url('../fonts/Socicon.woff?484r1f') format('woff'),
+    url('../fonts/Socicon.svg?484r1f#Socicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="socicon-"], [class*=" socicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Socicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.social-menu li a[href*="moddb.com"]::before {
+  content: "\e94b";
+}
+.social-menu li a[href*="indiedb.com"]::before {
+  content: "\e94c";
+}
+.social-menu li a[href*="traxsource.com"]::before {
+  content: "\e94d";
+}
+.social-menu li a[href*="gamefor.com"]::before {
+  content: "\e94e";
+}
+.social-menu li a[href*="pixiv.com"]::before {
+  content: "\e94f";
+}
+.social-menu li a[href*="myanimelist.com"]::before {
+  content: "\e950";
+}
+.social-menu li a[href*="blackberry.com"]::before {
+  content: "\e951";
+}
+.social-menu li a[href*="wickr.com"]::before {
+  content: "\e952";
+}
+.social-menu li a[href*="spip.com"]::before {
+  content: "\e953";
+}
+.social-menu li a[href*="napster.com"]::before {
+  content: "\e954";
+}
+.social-menu li a[href*="beatport.com"]::before {
+  content: "\e955";
+}
+.social-menu li a[href*="hackerone.com"]::before {
+  content: "\e956";
+}
+.social-menu li a[href*="hackernews.com"]::before {
+  content: "\e946";
+}
+.social-menu li a[href*="smashwords.com"]::before {
+  content: "\e947";
+}
+.social-menu li a[href*="kobo.com"]::before {
+  content: "\e948";
+}
+.social-menu li a[href*="bookbub.com"]::before {
+  content: "\e949";
+}
+.social-menu li a[href*="mailru.com"]::before {
+  content: "\e94a";
+}
+.social-menu li a[href*="gitlab.com"]::before {
+  content: "\e945";
+}
+.social-menu li a[href*="instructables.com"]::before {
+  content: "\e944";
+}
+.social-menu li a[href*="portfolio.com"]::before {
+  content: "\e943";
+}
+.social-menu li a[href*="codered.com"]::before {
+  content: "\e940";
+}
+.social-menu li a[href*="origin.com"]::before {
+  content: "\e941";
+}
+.social-menu li a[href*="nextdoor.com"]::before {
+  content: "\e942";
+}
+.social-menu li a[href*="udemy.com"]::before {
+  content: "\e93f";
+}
+.social-menu li a[href*="livemaster.com"]::before {
+  content: "\e93e";
+}
+.social-menu li a[href*="crunchbase.com"]::before {
+  content: "\e93b";
+}
+.social-menu li a[href*="homefy.com"]::before {
+  content: "\e93c";
+}
+.social-menu li a[href*="calendly.com"]::before {
+  content: "\e93d";
+}
+.social-menu li a[href*="realtor.com"]::before {
+  content: "\e90f";
+}
+.social-menu li a[href*="tidal.com"]::before {
+  content: "\e910";
+}
+.social-menu li a[href*="qobuz.com"]::before {
+  content: "\e911";
+}
+.social-menu li a[href*="natgeo.com"]::before {
+  content: "\e912";
+}
+.social-menu li a[href*="mastodon.com"]::before {
+  content: "\e913";
+}
+.social-menu li a[href*="unsplash.com"]::before {
+  content: "\e914";
+}
+.social-menu li a[href*="homeadvisor.com"]::before {
+  content: "\e915";
+}
+.social-menu li a[href*="angieslist.com"]::before {
+  content: "\e916";
+}
+.social-menu li a[href*="codepen.com"]::before {
+  content: "\e917";
+}
+.social-menu li a[href*="slack.com"]::before {
+  content: "\e918";
+}
+.social-menu li a[href*="openaigym.com"]::before {
+  content: "\e919";
+}
+.social-menu li a[href*="logmein.com"]::before {
+  content: "\e91a";
+}
+.social-menu li a[href*="fiverr.com"]::before {
+  content: "\e91b";
+}
+.social-menu li a[href*="gotomeeting.com"]::before {
+  content: "\e91c";
+}
+.social-menu li a[href*="aliexpress.com"]::before {
+  content: "\e91d";
+}
+.social-menu li a[href*="guru.com"]::before {
+  content: "\e91e";
+}
+.social-menu li a[href*="appstore.com"]::before {
+  content: "\e91f";
+}
+.social-menu li a[href*="homes.com"]::before {
+  content: "\e920";
+}
+.social-menu li a[href*="zoom.com"]::before {
+  content: "\e921";
+}
+.social-menu li a[href*="alibaba.com"]::before {
+  content: "\e922";
+}
+.social-menu li a[href*="craigslist.com"]::before {
+  content: "\e923";
+}
+.social-menu li a[href*="wix.com"]::before {
+  content: "\e924";
+}
+.social-menu li a[href*="redfin.com"]::before {
+  content: "\e925";
+}
+.social-menu li a[href*="googlecalendar.com"]::before {
+  content: "\e926";
+}
+.social-menu li a[href*="shopify.com"]::before {
+  content: "\e927";
+}
+.social-menu li a[href*="freelancer.com"]::before {
+  content: "\e928";
+}
+.social-menu li a[href*="seedrs.com"]::before {
+  content: "\e929";
+}
+.social-menu li a[href*="bing.com"]::before {
+  content: "\e92a";
+}
+.social-menu li a[href*="doodle.com"]::before {
+  content: "\e92b";
+}
+.social-menu li a[href*="bonanza.com"]::before {
+  content: "\e92c";
+}
+.social-menu li a[href*="squarespace.com"]::before {
+  content: "\e92d";
+}
+.social-menu li a[href*="toptal.com"]::before {
+  content: "\e92e";
+}
+.social-menu li a[href*="gust.com"]::before {
+  content: "\e92f";
+}
+.social-menu li a[href*="ask.com"]::before {
+  content: "\e930";
+}
+.social-menu li a[href*="trulia.com"]::before {
+  content: "\e931";
+}
+.social-menu li a[href*="loomly.com"]::before {
+  content: "\e932";
+}
+.social-menu li a[href*="ghost.com"]::before {
+  content: "\e933";
+}
+.social-menu li a[href*="upwork.com"]::before {
+  content: "\e934";
+}
+.social-menu li a[href*="fundable.com"]::before {
+  content: "\e935";
+}
+.social-menu li a[href*="booking.com"]::before {
+  content: "\e936";
+}
+.social-menu li a[href*="googlemaps.com"]::before {
+  content: "\e937";
+}
+.social-menu li a[href*="zillow.com"]::before {
+  content: "\e938";
+}
+.social-menu li a[href*="niconico.com"]::before {
+  content: "\e939";
+}
+.social-menu li a[href*="toneden.com"]::before {
+  content: "\e93a";
+}
+.social-menu li a[href*="augment.com"]::before {
+  content: "\e908";
+}
+.social-menu li a[href*="bitbucket.com"]::before {
+  content: "\e909";
+}
+.social-menu li a[href*="fyuse.com"]::before {
+  content: "\e90a";
+}
+.social-menu li a[href*="yt-gaming.com"]::before {
+  content: "\e90b";
+}
+.social-menu li a[href*="sketchfab.com"]::before {
+  content: "\e90c";
+}
+.social-menu li a[href*="mobcrush.com"]::before {
+  content: "\e90d";
+}
+.social-menu li a[href*="microsoft.com"]::before {
+  content: "\e90e";
+}
+.social-menu li a[href*="pandora.com"]::before {
+  content: "\e907";
+}
+.social-menu li a[href*="messenger.com"]::before {
+  content: "\e906";
+}
+.social-menu li a[href*="gamewisp.com"]::before {
+  content: "\e905";
+}
+.social-menu li a[href*="bloglovin.com"]::before {
+  content: "\e904";
+}
+.social-menu li a[href*="tunein.com"]::before {
+  content: "\e903";
+}
+.social-menu li a[href*="gamejolt.com"]::before {
+  content: "\e901";
+}
+.social-menu li a[href*="trello.com"]::before {
+  content: "\e902";
+}
+.social-menu li a[href*="spreadshirt.com"]::before {
+  content: "\e900";
+}
+.social-menu li a[href*="500px.com"]::before {
+  content: "\e000";
+}
+.social-menu li a[href*="8tracks.com"]::before {
+  content: "\e001";
+}
+.social-menu li a[href*="airbnb.com"]::before {
+  content: "\e002";
+}
+.social-menu li a[href*="alliance.com"]::before {
+  content: "\e003";
+}
+.social-menu li a[href*="amazon.com"]::before {
+  content: "\e004";
+}
+.social-menu li a[href*="amplement.com"]::before {
+  content: "\e005";
+}
+.social-menu li a[href*="android.com"]::before {
+  content: "\e006";
+}
+.social-menu li a[href*="angellist.com"]::before {
+  content: "\e007";
+}
+.social-menu li a[href*="apple.com"]::before {
+  content: "\e008";
+}
+.social-menu li a[href*="appnet.com"]::before {
+  content: "\e009";
+}
+.social-menu li a[href*="baidu.com"]::before {
+  content: "\e00a";
+}
+.social-menu li a[href*="bandcamp.com"]::before {
+  content: "\e00b";
+}
+.social-menu li a[href*="battlenet.com"]::before {
+  content: "\e00c";
+}
+.social-menu li a[href*="mixer.com"]::before {
+  content: "\e00d";
+}
+.social-menu li a[href*="bebee.com"]::before {
+  content: "\e00e";
+}
+.social-menu li a[href*="bebo.com"]::before {
+  content: "\e00f";
+}
+.social-menu li a[href*="behance.com"]::before {
+  content: "\e010";
+}
+.social-menu li a[href*="blizzard.com"]::before {
+  content: "\e011";
+}
+.social-menu li a[href*="blogger.com"]::before {
+  content: "\e012";
+}
+.social-menu li a[href*="buffer.com"]::before {
+  content: "\e013";
+}
+.social-menu li a[href*="chrome.com"]::before {
+  content: "\e014";
+}
+.social-menu li a[href*="coderwall.com"]::before {
+  content: "\e015";
+}
+.social-menu li a[href*="curse.com"]::before {
+  content: "\e016";
+}
+.social-menu li a[href*="dailymotion.com"]::before {
+  content: "\e017";
+}
+.social-menu li a[href*="deezer.com"]::before {
+  content: "\e018";
+}
+.social-menu li a[href*="delicious.com"]::before {
+  content: "\e019";
+}
+.social-menu li a[href*="deviantart.com"]::before {
+  content: "\e01a";
+}
+.social-menu li a[href*="diablo.com"]::before {
+  content: "\e01b";
+}
+.social-menu li a[href*="digg.com"]::before {
+  content: "\e01c";
+}
+.social-menu li a[href*="discord.com"]::before {
+  content: "\e01d";
+}
+.social-menu li a[href*="disqus.com"]::before {
+  content: "\e01e";
+}
+.social-menu li a[href*="douban.com"]::before {
+  content: "\e01f";
+}
+.social-menu li a[href*="draugiem.com"]::before {
+  content: "\e020";
+}
+.social-menu li a[href*="dribbble.com"]::before {
+  content: "\e021";
+}
+.social-menu li a[href*="drupal.com"]::before {
+  content: "\e022";
+}
+.social-menu li a[href*="ebay.com"]::before {
+  content: "\e023";
+}
+.social-menu li a[href*="ello.com"]::before {
+  content: "\e024";
+}
+.social-menu li a[href*="endomodo.com"]::before {
+  content: "\e025";
+}
+.social-menu li a[href*="envato.com"]::before {
+  content: "\e026";
+}
+.social-menu li a[href*="etsy.com"]::before {
+  content: "\e027";
+}
+.social-menu li a[href*="facebook.com"]::before {
+  content: "\e028";
+}
+.social-menu li a[href*="feedburner.com"]::before {
+  content: "\e029";
+}
+.social-menu li a[href*="filmweb.com"]::before {
+  content: "\e02a";
+}
+.social-menu li a[href*="firefox.com"]::before {
+  content: "\e02b";
+}
+.social-menu li a[href*="flattr.com"]::before {
+  content: "\e02c";
+}
+.social-menu li a[href*="flickr.com"]::before {
+  content: "\e02d";
+}
+.social-menu li a[href*="formulr.com"]::before {
+  content: "\e02e";
+}
+.social-menu li a[href*="forrst.com"]::before {
+  content: "\e02f";
+}
+.social-menu li a[href*="foursquare.com"]::before {
+  content: "\e030";
+}
+.social-menu li a[href*="friendfeed.com"]::before {
+  content: "\e031";
+}
+.social-menu li a[href*="github.com"]::before {
+  content: "\e032";
+}
+.social-menu li a[href*="goodreads.com"]::before {
+  content: "\e033";
+}
+.social-menu li a[href*="google.com"]::before {
+  content: "\e034";
+}
+.social-menu li a[href*="googlescholar.com"]::before {
+  content: "\e035";
+}
+.social-menu li a[href*="googlegroups.com"]::before {
+  content: "\e036";
+}
+.social-menu li a[href*="googlephotos.com"]::before {
+  content: "\e037";
+}
+.social-menu li a[href*="googleplus.com"]::before {
+  content: "\e038";
+}
+.social-menu li a[href*="grooveshark.com"]::before {
+  content: "\e039";
+}
+.social-menu li a[href*="hackerrank.com"]::before {
+  content: "\e03a";
+}
+.social-menu li a[href*="hearthstone.com"]::before {
+  content: "\e03b";
+}
+.social-menu li a[href*="hellocoton.com"]::before {
+  content: "\e03c";
+}
+.social-menu li a[href*="heroes.com"]::before {
+  content: "\e03d";
+}
+.social-menu li a[href*="smashcast.com"]::before {
+  content: "\e03e";
+}
+.social-menu li a[href*="horde.com"]::before {
+  content: "\e03f";
+}
+.social-menu li a[href*="houzz.com"]::before {
+  content: "\e040";
+}
+.social-menu li a[href*="icq.com"]::before {
+  content: "\e041";
+}
+.social-menu li a[href*="identica.com"]::before {
+  content: "\e042";
+}
+.social-menu li a[href*="imdb.com"]::before {
+  content: "\e043";
+}
+.social-menu li a[href*="instagram.com"]::before {
+  content: "\e044";
+}
+.social-menu li a[href*="issuu.com"]::before {
+  content: "\e045";
+}
+.social-menu li a[href*="istock.com"]::before {
+  content: "\e046";
+}
+.social-menu li a[href*="itunes.com"]::before {
+  content: "\e047";
+}
+.social-menu li a[href*="keybase.com"]::before {
+  content: "\e048";
+}
+.social-menu li a[href*="lanyrd.com"]::before {
+  content: "\e049";
+}
+.social-menu li a[href*="lastfm.com"]::before {
+  content: "\e04a";
+}
+.social-menu li a[href*="line.com"]::before {
+  content: "\e04b";
+}
+.social-menu li a[href*="linkedin.com"]::before {
+  content: "\e04c";
+}
+.social-menu li a[href*="livejournal.com"]::before {
+  content: "\e04d";
+}
+.social-menu li a[href*="lyft.com"]::before {
+  content: "\e04e";
+}
+.social-menu li a[href*="macos.com"]::before {
+  content: "\e04f";
+}
+.social-menu li a[href*="mail.com"]::before {
+  content: "\e050";
+}
+.social-menu li a[href*="medium.com"]::before {
+  content: "\e051";
+}
+.social-menu li a[href*="meetup.com"]::before {
+  content: "\e052";
+}
+.social-menu li a[href*="mixcloud.com"]::before {
+  content: "\e053";
+}
+.social-menu li a[href*="modelmayhem.com"]::before {
+  content: "\e054";
+}
+.social-menu li a[href*="mumble.com"]::before {
+  content: "\e055";
+}
+.social-menu li a[href*="myspace.com"]::before {
+  content: "\e056";
+}
+.social-menu li a[href*="newsvine.com"]::before {
+  content: "\e057";
+}
+.social-menu li a[href*="nintendo.com"]::before {
+  content: "\e058";
+}
+.social-menu li a[href*="npm.com"]::before {
+  content: "\e059";
+}
+.social-menu li a[href*="odnoklassniki.com"]::before {
+  content: "\e05a";
+}
+.social-menu li a[href*="openid.com"]::before {
+  content: "\e05b";
+}
+.social-menu li a[href*="opera.com"]::before {
+  content: "\e05c";
+}
+.social-menu li a[href*="outlook.com"]::before {
+  content: "\e05d";
+}
+.social-menu li a[href*="overwatch.com"]::before {
+  content: "\e05e";
+}
+.social-menu li a[href*="patreon.com"]::before {
+  content: "\e05f";
+}
+.social-menu li a[href*="paypal.com"]::before {
+  content: "\e060";
+}
+.social-menu li a[href*="periscope.com"]::before {
+  content: "\e061";
+}
+.social-menu li a[href*="persona.com"]::before {
+  content: "\e062";
+}
+.social-menu li a[href*="pinterest.com"]::before {
+  content: "\e063";
+}
+.social-menu li a[href*="play.com"]::before {
+  content: "\e064";
+}
+.social-menu li a[href*="player.com"]::before {
+  content: "\e065";
+}
+.social-menu li a[href*="playstation.com"]::before {
+  content: "\e066";
+}
+.social-menu li a[href*="pocket.com"]::before {
+  content: "\e067";
+}
+.social-menu li a[href*="qq.com"]::before {
+  content: "\e068";
+}
+.social-menu li a[href*="quora.com"]::before {
+  content: "\e069";
+}
+.social-menu li a[href*="raidcall.com"]::before {
+  content: "\e06a";
+}
+.social-menu li a[href*="ravelry.com"]::before {
+  content: "\e06b";
+}
+.social-menu li a[href*="reddit.com"]::before {
+  content: "\e06c";
+}
+.social-menu li a[href*="renren.com"]::before {
+  content: "\e06d";
+}
+.social-menu li a[href*="researchgate.com"]::before {
+  content: "\e06e";
+}
+.social-menu li a[href*="residentadvisor.com"]::before {
+  content: "\e06f";
+}
+.social-menu li a[href*="reverbnation.com"]::before {
+  content: "\e070";
+}
+.social-menu li a[href*="rss.com"]::before {
+  content: "\e071";
+}
+.social-menu li a[href*="sharethis.com"]::before {
+  content: "\e072";
+}
+.social-menu li a[href*="skype.com"]::before {
+  content: "\e073";
+}
+.social-menu li a[href*="slideshare.com"]::before {
+  content: "\e074";
+}
+.social-menu li a[href*="smugmug.com"]::before {
+  content: "\e075";
+}
+.social-menu li a[href*="snapchat.com"]::before {
+  content: "\e076";
+}
+.social-menu li a[href*="songkick.com"]::before {
+  content: "\e077";
+}
+.social-menu li a[href*="soundcloud.com"]::before {
+  content: "\e078";
+}
+.social-menu li a[href*="spotify.com"]::before {
+  content: "\e079";
+}
+.social-menu li a[href*="stackexchange.com"]::before {
+  content: "\e07a";
+}
+.social-menu li a[href*="stackoverflow.com"]::before {
+  content: "\e07b";
+}
+.social-menu li a[href*="starcraft.com"]::before {
+  content: "\e07c";
+}
+.social-menu li a[href*="stayfriends.com"]::before {
+  content: "\e07d";
+}
+.social-menu li a[href*="steam.com"]::before {
+  content: "\e07e";
+}
+.social-menu li a[href*="storehouse.com"]::before {
+  content: "\e07f";
+}
+.social-menu li a[href*="strava.com"]::before {
+  content: "\e080";
+}
+.social-menu li a[href*="streamjar.com"]::before {
+  content: "\e081";
+}
+.social-menu li a[href*="stumbleupon.com"]::before {
+  content: "\e082";
+}
+.social-menu li a[href*="swarm.com"]::before {
+  content: "\e083";
+}
+.social-menu li a[href*="teamspeak.com"]::before {
+  content: "\e084";
+}
+.social-menu li a[href*="teamviewer.com"]::before {
+  content: "\e085";
+}
+.social-menu li a[href*="technorati.com"]::before {
+  content: "\e086";
+}
+.social-menu li a[href*="telegram.com"]::before {
+  content: "\e087";
+}
+.social-menu li a[href*="tripadvisor.com"]::before {
+  content: "\e088";
+}
+.social-menu li a[href*="tripit.com"]::before {
+  content: "\e089";
+}
+.social-menu li a[href*="triplej.com"]::before {
+  content: "\e08a";
+}
+.social-menu li a[href*="tumblr.com"]::before {
+  content: "\e08b";
+}
+.social-menu li a[href*="twitch.com"]::before {
+  content: "\e08c";
+}
+.social-menu li a[href*="twitter.com"]::before {
+  content: "\e08d";
+}
+.social-menu li a[href*="uber.com"]::before {
+  content: "\e08e";
+}
+.social-menu li a[href*="ventrilo.com"]::before {
+  content: "\e08f";
+}
+.social-menu li a[href*="viadeo.com"]::before {
+  content: "\e090";
+}
+.social-menu li a[href*="viber.com"]::before {
+  content: "\e091";
+}
+.social-menu li a[href*="viewbug.com"]::before {
+  content: "\e092";
+}
+.social-menu li a[href*="vimeo.com"]::before {
+  content: "\e093";
+}
+.social-menu li a[href*="vine.com"]::before {
+  content: "\e094";
+}
+.social-menu li a[href*="vkontakte.com"]::before {
+  content: "\e095";
+}
+.social-menu li a[href*="warcraft.com"]::before {
+  content: "\e096";
+}
+.social-menu li a[href*="wechat.com"]::before {
+  content: "\e097";
+}
+.social-menu li a[href*="weibo.com"]::before {
+  content: "\e098";
+}
+.social-menu li a[href*="whatsapp.com"]::before {
+  content: "\e099";
+}
+.social-menu li a[href*="wikipedia.com"]::before {
+  content: "\e09a";
+}
+.social-menu li a[href*="windows.com"]::before {
+  content: "\e09b";
+}
+.social-menu li a[href*="wordpress.com"]::before {
+  content: "\e09c";
+}
+.social-menu li a[href*="wykop.com"]::before {
+  content: "\e09d";
+}
+.social-menu li a[href*="xbox.com"]::before {
+  content: "\e09e";
+}
+.social-menu li a[href*="xing.com"]::before {
+  content: "\e09f";
+}
+.social-menu li a[href*="yahoo.com"]::before {
+  content: "\e0a0";
+}
+.social-menu li a[href*="yammer.com"]::before {
+  content: "\e0a1";
+}
+.social-menu li a[href*="yandex.com"]::before {
+  content: "\e0a2";
+}
+.social-menu li a[href*="yelp.com"]::before {
+  content: "\e0a3";
+}
+.social-menu li a[href*="younow.com"]::before {
+  content: "\e0a4";
+}
+.social-menu li a[href*="youtube.com"]::before {
+  content: "\e0a5";
+}
+.social-menu li a[href*="zapier.com"]::before {
+  content: "\e0a6";
+}
+.social-menu li a[href*="zerply.com"]::before {
+  content: "\e0a7";
+}
+.social-menu li a[href*="zomato.com"]::before {
+  content: "\e0a8";
+}
+.social-menu li a[href*="zynga.com"]::before {
+  content: "\e0a9";
+}
